@@ -5,7 +5,7 @@ class Queue {
 	}
 	
 	isEmpty() {
-		if(this.queue === 'undefined' || this.queue === null || this.queue.length === 0) {
+		if(this.queue === undefined || this.queue === null || this.queue.length === 0) {
 			return true;
 		} else {
 			return false;
